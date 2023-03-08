@@ -1,0 +1,25 @@
+body{
+    color: #3e3e3e;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    background-image: url(img\body-background.png);
+}
+
+h2{
+    border-bottom: 2px groove #3e3e3e;
+    border-style: outset;
+}
+
+figure{
+    background-color: #F2EDED;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-size: auto;
+    
+}
+
+figcaption{
+    font-style: italic;
+}
