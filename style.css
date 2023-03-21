@@ -1,25 +1,59 @@
 body{
     color: #3e3e3e;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+
+}
+
+img{
+
+    border-radius: 20px;
+
 }
 
 h1{
     background-image: url(img\body-background.png);
+    padding: 10px;
+    border-style: outset;
+    border-radius: 40px;
+    border-width: 12px;
+
 }
 
 h2{
     border-bottom: 2px groove #3e3e3e;
     border-style: outset;
+    margin-top: 30px;
+    text-align: center;
+     border-style: outset;
+    border-radius: 40px;
+    border-width: 6px;
+    border-width: 1.2vh;
+    width: 500px;
+    margin: auto;
+
+
 }
 
+
+
 figure{
-    background-color: #F2EDED;
-    border: 1px solid #ccc;
-    border-radius: 10px;
+  
     background-size: auto;
-    
+    text-align: center;
+    padding: 15px;
+    margin: 30px;    
+
 }
 
 figcaption{
     font-style: italic;
+    margin-top: 10px;
+}
+
+p{
+    padding:  0 45px;
+    text-indent:  15px;
 }
