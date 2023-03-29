@@ -54,13 +54,43 @@ margin: 0 0  10px 10px;
 
 }
 
+#Logo{
+    border-radius:40px;
+    text-align: center;
+    border-width: 1.2vh;
+    border-style: outset;
+    width: 500px;
+    height:auto;
+    margin: auto;
+    margin-bottom: 30px;
+    border-bottom:groove black 7px;;
+}
+
+#centrodist{
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
 #rodape{
-    color: rgb(158, 25, 25);
+    color: #777;
     margin: 30px 0;
     padding: 30px 0;
 }
 
 #rodape img{
-float: left;
-margin: 0 0 10px 10px;
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
+}
+
+#familia-pelho-image{
+    border-radius: 10px;
+
+
+}
+
+#centro-distribuicao-image{
+
+    border-radius: 10px;
 }
