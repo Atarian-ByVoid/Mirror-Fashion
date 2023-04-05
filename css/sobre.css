@@ -13,7 +13,9 @@ h1{
     padding: 10px;
     border-style: outset;
     border-radius: 40px;
-    border-width: 12px;
+    border-width: 8px;
+    margin-bottom: 8px;
+    margin-top: 10px;
 
 }
 
