@@ -1,14 +1,47 @@
-body{
-    color: #3e3e3e;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: auto;
-    margin-right: auto;
+.sacola {
+    background: url(../img/sacola.png) no-repeat top right;
+    font-size: 14px;
+    padding-right: 35px;
+    padding-top: 8px;
+    text-align: right;
+    width: 140px;
+    position: absolute;
+    top: 0;
+    left: 60%;
+}
+
+.menu-opcoes {
+    margin-left: 40%;
+}
+
+.menu-opcoes ul {
+    font-size: 15px;
+}
+
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu-opcoes a {
+    color: #003366;
+}
+
+.container {
+    margin: 0 auto;
     width: 940px;
 
 }
 
+body {
+    color: #3e3e3e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
 
-h1{
+}
+
+h1 {
     background-image: url(img\body-background.png);
     padding: 10px;
     border-style: outset;
@@ -16,15 +49,16 @@ h1{
     border-width: 8px;
     margin-bottom: 8px;
     margin-top: 10px;
+    width: 940px;
 
 }
 
-h2{
+h2 {
     border-bottom: 2px groove #3e3e3e;
     border-style: outset;
     margin-top: 30px;
     text-align: center;
-     border-style: outset;
+    border-style: outset;
     border-radius: 40px;
     border-width: 6px;
     border-width: 1.2vh;
@@ -33,14 +67,15 @@ h2{
     margin-bottom: 20px;
 
 
+
 }
 
-p{
-    padding:  0 45px;
-    text-indent:  15px;
+p {
+    padding: 0 45px;
+    text-indent: 15px;
 }
 
-#centro-distribuicao{
+#centro-distribuicao {
     margin-left: auto;
     margin-right: auto;
     width: 550p;
@@ -49,51 +84,128 @@ p{
 
 }
 
-#familia-pelho{
-float: right;
-margin: 0 0  10px 10px;
+#familia-pelho {
+    float: right;
+    margin: 0 0 10px 10px;
 
 
 }
 
-#Logo{
-    border-radius:40px;
+#logo {
+    border-radius: 40px;
     text-align: center;
     border-width: 1.2vh;
     border-style: outset;
     width: 500px;
-    height:auto;
+    height: auto;
     margin: auto;
     margin-bottom: 30px;
-    border-bottom:groove black 7px;;
+    border-bottom: groove black 7px;
+    ;
 }
 
-#centrodist{
+#centrodist {
     margin-left: auto;
     margin-right: auto;
     width: 550px;
 }
 
-#rodape{
+#rodape {
     color: #777;
     margin: 30px 0;
     padding: 30px 0;
 }
 
-#rodape img{
+#rodape img {
     margin-right: 30px;
     vertical-align: middle;
     width: 94px;
 }
 
-#familia-pelho-image{
+#familia-pelho-image {
     border-radius: 10px;
 
 
 }
 
-#centro-distribuicao-image{
+#centro-distribuicao-image {
 
     border-radius: 10px;
 }
 
+
+
+/*Pseudo classes*/
+h1+p {
+    text-indent: 0;
+}
+
+p:first-letter {
+    font-weight: bold;
+    color: black;
+}
+
+p::first-line {
+    font-variant: small-caps;
+}
+
+
+.menu-opcoes a:hover {
+
+    color: aquamarine;
+}
+
+.menu-opcoes a:active {
+
+    color: red;
+}
+
+
+
+/* Estilização do footer*/
+footer {
+    background-image: url(../img/fundo-rodape.png);
+    clear: both;
+    padding: 20px 0;
+}
+
+footer .container {
+    position: relative;
+}
+
+.social a {
+    /* tamanho da imagem */
+    height: 32px;
+    width: 32px;
+    /* image replacement */
+    display: block;
+    text-indent: -9999px;
+}
+
+.social a[href*="facebook.com"] {
+    background-image: url(../img/facebook.png);
+}
+
+.social a[href*="twitter.com"] {
+    background-image: url(../img/twitter.png);
+}
+
+.social a[href*="plus.google.com"] {
+    background-image: url(../img/googleplus.png);
+}
+
+.social a[href*="github.com"] {
+    background-image: url(../img/gitHub.png);
+
+}
+
+.social {
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+
+.social li {
+    float: left;
+    margin-left: 25px;
+}
