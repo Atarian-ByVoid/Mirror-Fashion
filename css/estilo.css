@@ -110,9 +110,15 @@ body {
 }
 
 .painel {
+	border-radius: 4px;
+	box-shadow: inset 1px 1px 4px #999;
 	margin: 10px 0;
 	padding: 10px;
 	width: 445px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
 }
 
 .novidades {
@@ -128,7 +134,10 @@ body {
 	font-weight: bold;
 	text-transform: uppercase;
 	margin-bottom: 10px;
+	text-shadow: 3px 3px 2px;
+	opacity: 0.5;
 }
+
 
 .painel a {
 	color: #333;
@@ -139,11 +148,17 @@ body {
 
 .novidades {
 	background-color: #f5dcdc;
+	background: linear-gradient(#f5dcdc , #bebef4);
+
 }
 
 .mais-vendidos {
 	background-color: #dcdcf5;
+	background: linear-gradient(#dcdcf5,- #f4bebe);
+
+
 }
+
 
 .painel li {
 	display: inline-block;
