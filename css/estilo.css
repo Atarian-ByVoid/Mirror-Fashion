@@ -186,6 +186,12 @@ body {
 .social a[href*="twitter.com"] {
 	background-image: url(../img/twitter.png);
 }
+.social a[href*="github.com"] {
+    background-image: url(../img/gitHub.png);
+    background-size: 32px 32px;
+    
+
+}
 
 footer {
 	background-image: url(../img/fundo-rodape.png);
