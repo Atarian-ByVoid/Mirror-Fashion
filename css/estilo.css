@@ -239,3 +239,39 @@ footer .container {
 .menu-departamentos li li a:before {
 	content: '- ';
 }
+
+.painel li:hover{
+	background-color: rgba(#255, #255, #255, 0.8);
+	box-shadow: 0 0 5px #333;
+	transition: 0.7s ease-in;
+	-webkit-transition: 0.7s ease-in;
+	-moz-transition: 0.7s ease-in;
+	-ms-transition: 0.7s ease-in;
+	-o-transition: 0.7s ease-in;
+	transform: scale(1.2) rotate(-5deg);
+	-webkit-transform: scale(1.2) rotate(-5deg);
+	-moz-transform: scale(1.2) rotate(-5deg);
+	-ms-transform: scale(1.2) rotate(-5deg);
+	-o-transform: scale(1.2) rotate(-5deg);
+}
+
+.painel li:nth-child(2n):hover{
+	transform:scale(1.2) rotate(5deg);
+	-webkit-transform:scale(1.2) rotate(5deg);
+	-moz-transform:scale(1.2) rotate(5deg);
+	-ms-transform:scale(1.2) rotate(5deg);
+	-o-transform:scale(1.2) rotate(5deg);
+}
+
+.painel li{
+	display: inline-block;
+	vertical-align: top;
+	width: 140px;
+	margin: 2px;
+	padding-bottom: 10px;
+	transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+	-webkit-transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+	-moz-transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+	-ms-transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+	-o-transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
