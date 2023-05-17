@@ -225,11 +225,13 @@ footer .container {
 }
 
 .menu-departamentos li ul {
-	display: none;
+	display: none;   
 }
 
 .menu-departamentos li:hover ul {
 	display: block;
+	
+
 }
 
 .menu-departamentos ul ul li {
@@ -238,6 +240,7 @@ footer .container {
 
 .menu-departamentos li li a:before {
 	content: '- ';
+	
 }
 
 .painel li:hover{
@@ -253,6 +256,7 @@ footer .container {
 	-moz-transform: scale(1.2) rotate(-5deg);
 	-ms-transform: scale(1.2) rotate(-5deg);
 	-o-transform: scale(1.2) rotate(-5deg);
+	
 }
 
 .painel li:nth-child(2n):hover{
