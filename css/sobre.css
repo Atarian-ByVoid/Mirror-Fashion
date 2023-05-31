@@ -28,8 +28,11 @@
 }
 
 .container {
-    margin: 0 auto;
-    width: 940px;
+	width: 96%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
 
 }
 
@@ -257,12 +260,10 @@ p{
 	padding: 0;
 	text-indent: 0;
 }
-#centro-distribuicao img{
-	width: 80%;
-}
 #centro-distribuicao {
 	margin: 0;
 	padding: 0;
+	width: 100%;
 }
 #familia-pelho {
 	float: right;
